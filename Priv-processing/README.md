@@ -2,7 +2,7 @@
 
 ## Function
 
-This project implements a privacy-preserving short-term personal load forecasting service in the smart grid, i.e., predicting the future electricity consumption of customers based on the input data of their electricity consumption at a series of time points.
+This project implements a privacy-preserving short-term individual load forecasting service for smart grid, i.e., forcasting the future electricity consumption of customers based on the input data of their electricity consumption at a series of time points.
 
 In this project, the training has both forward and backward propagation processes, while the forcasting is only the forward propagation process.
 
