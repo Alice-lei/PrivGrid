@@ -1,8 +1,8 @@
-# AMT-via-SIP
+# Share-gen
 
 ## Function
 
-This project implements the generation of multiplicative triples.
+This project implements the generation of secure share.
 
 ## Compile
 
@@ -17,7 +17,7 @@ Clone source code:
 
 ```bash
 git clone https://github.com/Alice-lei/PrivGrid.git
-cd PrivGrid/AMT-via-SIP
+cd PrivGrid/Share-gen
 ```
 
 Compile:
@@ -31,13 +31,11 @@ You can find the executable file in the `bin` directory.
 
 ## Usage
 ```
-AMT-via-SIP [Options] <Destination>
+Share-gen  [Options] <Destination>
 
-Options  Destination
--r       (required) Role, input integer 1 or 2. 1 means server, 2 means client.
--i       (optional) IP Address. Default 127.0.0.1
--p       (optional) Port Number. Default 26481
--h       Help
+Options    Destination
+-s         (Required) Path to the directory where the data files are stored (*.csv)
+-h         Help
 ```
 
 ## Author
